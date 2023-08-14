@@ -2,17 +2,16 @@
 <div class="parent">
   <div class="child">
     <%=  @question %>
-    <p>your question</p>
+    <p>- You</p>
   </div>
 </div>
 <div class="parent">
   <div class="child">
     <%= @answer %>
-    <p>coach answer</p>
+    <p>- Coach</p>
   </div>
 </div>
-<div class="parent">
-  <div class="child">
-    <%= link_to "Coach wants to know more", ask_path %>
-  </div>
+
+<div class="link">
+  <%= link_to "Coach wants to know more", ask_path %>
 </div>

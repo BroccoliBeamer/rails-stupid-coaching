@@ -19,6 +19,14 @@
   background-color: lightgray;
 }
 .child {
-  background-color: white;
+  background-color: #FFFFE1;
   padding-left: 8px;
+}
+p {
+  padding-top: 4px;
+}
+a {
+  margin-left: 8px;
+  text-decoration: none;
+  font-size: small;
 }
