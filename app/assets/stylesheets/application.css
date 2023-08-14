@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+.parent {
+  margin: 18px 35px;
+  padding-left: 10px;
+  background-color: lightgray;
+}
+.child {
+  background-color: white;
+  padding-left: 8px;
+}
